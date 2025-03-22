@@ -3,7 +3,7 @@ from collections import defaultdict
 
 def round_ieee754(value):
     # Use Python's built-in round() function for correct rounding
-    return round(value,0)
+    return round(value,1)
 
 def main(input_file_name="testcase.txt", output_file_name="output.txt"):
     city_data = defaultdict(list)
